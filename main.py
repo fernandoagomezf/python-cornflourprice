@@ -8,7 +8,7 @@ import sys
 from colorama import Fore
 from typing import Tuple
 
-app_title = "ToDo App v0.1"
+app_title = "MX Corn Flour Prices Data Munging v0.1"
 cnnstr = "todo.db"
 source_url = "https://www.economia-sniim.gob.mx/SNIIM-Archivosfuente/Comentarios/Otros/PreciosHarinaMaiz%2030(07)25.xlsx"
 source_filename = "cornflourprices.xlsx"
@@ -39,6 +39,7 @@ def cmd_help():
 def cmd_get():
     try:
         print(f"Downloading data source...")
+        print(f"** {source_url}")
         response = requests.get(source_url)
         response.raise_for_status()
         with open(source_filename, "wb") as file:
