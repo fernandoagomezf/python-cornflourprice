@@ -22,10 +22,11 @@ state_iso = {
     "Campeche": "CAM",
     "Chiapas": "CHP",
     "Chihuahua": "CHH",
-    "Ciudad de México": "CMX",  # Also map variants like "CDMX" if needed
+    "Ciudad de México": "CMX",
     "Coahuila": "COA",
     "Colima": "COL",
     "Durango": "DUR",
+    "Estado de México": "MEX",
     "Guanajuato": "GUA",
     "Guerrero": "GRO",
     "Hidalgo": "HID",
